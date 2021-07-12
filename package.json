@@ -5,13 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raunak Shrestha",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "openid-client": "^4.6.0"
+    "openid-client": "^4.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "request": "^2.88.2",
+    "web-vitals": "^2.1.0"
   }
 }
